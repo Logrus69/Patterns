@@ -1,6 +1,6 @@
 package behavioral.strategy;
 
-import behavioral.strategy.interfaces.FillStrategy;
+import behavioral.strategy.strategies.GasolineFillStrategy;
 
 public class Suzuki extends Auto{
 
