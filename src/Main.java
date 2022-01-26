@@ -1,3 +1,4 @@
+import behavioral.command.*;
 import generative.builder.withdirector.AutomotiveEngineer;
 import generative.builder.withdirector.builders.ClassicCarBuilder;
 import generative.builder.withdirector.interfaces.CarBuilder;
@@ -22,12 +23,19 @@ public class Main {
         tesla.gas();*/
 
         /**Builder**/
-        CarBuilder builder = new ClassicCarBuilder();
+        /*CarBuilder builder = new ClassicCarBuilder();
         AutomotiveEngineer engineer = new AutomotiveEngineer(builder);
-        engineer.manufactureCar();
+        engineer.manufactureCar();*/
 
-        /**Bridge**/
-        Education coach = new Coach(new English());
-        coach.showDetails();
+       /**Bridge**/
+        /*Education coach = new Coach(new English());
+        coach.showDetails();*/
+
+        Comp computer = new Comp();
+        User user = new User(new StartCommand(computer), new StopCommand(computer), new ResetCommand(computer));
+
+        user.startComputer();
+        user.stopComputer();
+        user.resetComputer();
     }
 }
