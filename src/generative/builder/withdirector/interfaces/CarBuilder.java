@@ -1,6 +1,6 @@
-package generative.builder.interfaces;
+package generative.builder.withdirector.interfaces;
 
-import generative.builder.Car;
+import generative.builder.withdirector.Car;
 
 public interface CarBuilder {
 

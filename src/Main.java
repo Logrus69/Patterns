@@ -1,8 +1,6 @@
-import behavioral.strategy.*;
-import behavioral.strategy.strategies.DieselFillStrategy;
-import generative.builder.AutomotiveEngineer;
-import generative.builder.builders.ClassicCarBuilder;
-import generative.builder.interfaces.CarBuilder;
+import generative.builder.withdirector.AutomotiveEngineer;
+import generative.builder.withdirector.builders.ClassicCarBuilder;
+import generative.builder.withdirector.interfaces.CarBuilder;
 import structural.bridge.Coach;
 import structural.bridge.Education;
 import structural.bridge.English;
@@ -24,9 +22,9 @@ public class Main {
         tesla.gas();*/
 
         /**Builder**/
-        /*CarBuilder builder = new ClassicCarBuilder();
+        CarBuilder builder = new ClassicCarBuilder();
         AutomotiveEngineer engineer = new AutomotiveEngineer(builder);
-        engineer.manufactureCar();*/
+        engineer.manufactureCar();
 
         /**Bridge**/
         Education coach = new Coach(new English());

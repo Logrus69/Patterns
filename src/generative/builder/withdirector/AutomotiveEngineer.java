@@ -1,6 +1,6 @@
-package generative.builder;
+package generative.builder.withdirector;
 
-import generative.builder.interfaces.CarBuilder;
+import generative.builder.withdirector.interfaces.CarBuilder;
 
 public class AutomotiveEngineer {
     private final CarBuilder builder;

@@ -1,7 +1,7 @@
-package generative.builder.builders;
+package generative.builder.withdirector.builders;
 
-import generative.builder.Car;
-import generative.builder.interfaces.CarBuilder;
+import generative.builder.withdirector.Car;
+import generative.builder.withdirector.interfaces.CarBuilder;
 
 public class ClassicCarBuilder implements CarBuilder {
 

@@ -1,43 +1,43 @@
-package generative.builder.builders;
+package generative.builder.withdirector.builders;
 
-import generative.builder.Car;
-import generative.builder.interfaces.CarBuilder;
+import generative.builder.withdirector.Car;
+import generative.builder.withdirector.interfaces.CarBuilder;
 
-public class ModernCarBuilder  implements CarBuilder {
+public class SportsCarBuilder implements CarBuilder {
     private String chassis;
     private String body;
     private String paint;
     private String interior;
 
-    public ModernCarBuilder() {
+    public SportsCarBuilder() {
         super();
     }
 
     @Override
     public CarBuilder fixChassis() {
-        System.out.println("Assembling chassis of the modern model");
-        this.chassis = "Modern Chassis";
+        System.out.println("Assembling chassis of the sports model");
+        this.chassis = "Sporty Chassis";
         return this;
     }
 
     @Override
     public CarBuilder fixBody() {
-        System.out.println("Assembling body of the modern model");
-        this.body = "Modern Body";
+        System.out.println("Assembling body of the sports model");
+        this.body = "Sporty Body";
         return this;
     }
 
     @Override
     public CarBuilder paint() {
-        System.out.println("Painting body of the modern model");
-        this.paint = "Modern Black Paint";
+        System.out.println("Painting body of the sports model");
+        this.paint = "Sporty Torch Red Paint";
         return this;
     }
 
     @Override
     public CarBuilder fixInterior() {
-        System.out.println("Setting up interior of the modern model");
-        this.interior = "Modern interior";
+        System.out.println("Setting up interior of the sports model");
+        this.interior = "Sporty interior";
         return this;
     }
 
