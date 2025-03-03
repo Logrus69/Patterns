@@ -1,11 +1,3 @@
-import behavioral.command.*;
-import generative.builder.withdirector.AutomotiveEngineer;
-import generative.builder.withdirector.builders.ClassicCarBuilder;
-import generative.builder.withdirector.interfaces.CarBuilder;
-import structural.bridge.Coach;
-import structural.bridge.Education;
-import structural.bridge.English;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -31,11 +23,13 @@ public class Main {
         /*Education coach = new Coach(new English());
         coach.showDetails();*/
 
-        Comp computer = new Comp();
+        /*Comp computer = new Comp();
         User user = new User(new StartCommand(computer), new StopCommand(computer), new ResetCommand(computer));
 
         user.startComputer();
         user.stopComputer();
-        user.resetComputer();
+        user.resetComputer();*/
+
+
     }
 }
