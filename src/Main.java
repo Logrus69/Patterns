@@ -1,23 +1,3 @@
-import behavioral.command.*;
-import generative.builder.withdirector.AutomotiveEngineer;
-import generative.builder.withdirector.builders.ClassicCarBuilder;
-import generative.builder.withdirector.interfaces.CarBuilder;
-import structural.bridge.Coach;
-import structural.bridge.Education;
-import structural.bridge.English;
-import structural.composite.FBIClient;
-import structural.composite.PlainTerminal;
-import structural.composite.plainmodel.Baggage;
-import structural.composite.plainmodel.Passenger;
-import structural.composite.plainmodel.PlainBody;
-import structural.composite.plainmodel.PlainClass;
-import structural.flyweight.Developer;
-import structural.flyweight.DeveloperFactory;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 public class Main {
 
     public static void main(String[] args) {
